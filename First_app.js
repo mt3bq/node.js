@@ -1,3 +1,9 @@
+
+var s=require("./person");
+
+
+
+
 var person={
     first_name:"Muteb",
     list_name:"Alsharari",
@@ -18,3 +24,14 @@ function display_age(){
 
 
 display();
+
+
+
+
+var num=[1,2,3,4,5];
+
+num.forEach(function(y){
+    console.log(y);
+});
+
+s.me;
